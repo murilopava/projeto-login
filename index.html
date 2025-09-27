@@ -13,20 +13,22 @@
 <body>
     <main>
         <div id="imagem"></div>
-        <h1>Login</h1>
-        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-        <form action="#" method="post" autocomplete="on">
-            <div class="caixa">
-                <label for="iemail"><i class="material-symbols-outlined">person</i></label>
-                <input type="email" name="email" id="iemail" placeholder="seu e-mail" autocomplete="email" required>
-            </div>
-            <div class="caixa">
-                <label for="isenha"><i class="material-symbols-outlined">vpn_key</i></label>
-                <input type="password" name="senha" id="isenha" autocomplete="current-password" placeholder="sua senha" required>
-            </div>
-            <input type="submit" value="Entrar">
-            <input id="senha" type="button" value="Esqueci a senha">
-        </form>
+        <article>
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+            <form action="#" method="post" autocomplete="on">
+                <div class="caixa">
+                    <i class="material-symbols-outlined">person</i>
+                    <input class="input" type="email" name="email" id="iemail" placeholder="seu e-mail" autocomplete="email" required>
+                </div>
+                <div class="caixa">
+                    <label for="isenha"><i class="material-symbols-outlined">vpn_key</i></label>
+                    <input class="input" type="password" name="senha" id="isenha" autocomplete="current-password" placeholder="sua senha" required>
+                </div>
+                <input id="submit" class="opcao" type="submit" value="Entrar">
+                <input class="opcao" id="esqsenha" type="button" value="Esqueci a senha">
+            </form>
+        </article>
     </main>
 </body>
 </html>

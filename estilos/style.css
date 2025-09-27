@@ -1,11 +1,100 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
 .material-symbols-outlined {
+    position: relative;
+    top: 6px;
+    scale: 1.3;
+    margin: 0px 8px 8px 8px;
+    color: white;
+
     font-variation-settings:
     'FILL' 1,
     'wght' 400,
     'GRAD' 0,
     'opsz' 24
-    }
+}
 
+body {
+    background-color: rgb(89, 19, 129);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#imagem {
+    width: 270px;
+    height: 200px;
+    background: black url(../imagens/metal.jpg) bottom left / cover no-repeat fixed;
+    border-radius: 20px 20px 0px 0px;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     
+    transform: translate(-50%, -50%);
+    
+}
+
+article {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 250px;
+    
+    border-radius: 0px 0px 20px 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+    margin: 10px;
+}
+
+p {
+    font-size: 0.8em;
+    margin-bottom: 7px;
+}
+
+.caixa {
+    background-color: rgb(89, 19, 129);
+    border-radius: 10px;
+    padding: 4px;
+    margin-bottom: 5px;
+}
+
+.input {
+    background-color: rgb(148, 207, 205);
+    border: 0px;
+    border-radius: 10px;
+    height: 25px;
+    width: 187px;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+.opcao {
+    width: 250px;
+    height: 40px;
+    border: 1px solid rgb(93, 185, 182);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+input#submit {
+    background-color: rgb(93, 185, 182);
+    
+    color: white;
+}
+
+input#esqsenha {
+    color: rgb(56, 117, 115);
+}
+
+
