@@ -1,5 +1,43 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
+
+    body {
+        height: 100vh;
+        background-image: linear-gradient(to bottom, rgb(74, 3, 133), rgb(8, 185, 162))
+    }
+
+    div#imagem {
+        
+        position: absolute;
+        background-position: center;
+        border-radius: 20px 0px 0px 20px;
+        height: 278px;
+        left: -30%;
+        width: 33vw;
+    }
+
+    article {
+        position: relative;
+        padding: 3px 10px 0px 10px;
+        
+        left: 30%;
+        width: 50vw;
+
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    .input {
+        width: 42.3vw;
+    }
+    
+    .opcao {
+        width: 50vw;
+        margin-bottom: 5px; 
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
     
 }
