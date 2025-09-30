@@ -1,43 +1,66 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
     body {
         height: 100vh;
         background-image: linear-gradient(to bottom, rgb(74, 3, 133), rgb(8, 185, 162))
     }
 
-    div#imagem {
-        
-        position: absolute;
-        background-position: center;
-        border-radius: 20px 0px 0px 20px;
-        height: 278px;
-        left: -30%;
-        width: 33vw;
+    main {
+        width: 80vw;
+        height: 310px;
+    }
+
+    main > div#imagem {
+        float: left;
+        height: 100%;
+        width: 30%;
     }
 
     article {
-        position: relative;
+        float: right;
         padding: 3px 10px 0px 10px;
         
-        left: 30%;
-        width: 50vw;
-
-        border-radius: 0px 20px 20px 0px;
+        width: 66%;
+        
     }
 
-    .input {
-        width: 42.3vw;
-    }
-    
-    .opcao {
-        width: 50vw;
-        margin-bottom: 5px; 
-    }
 }
 
 @media screen and (min-width: 1024px) {
+    
+    body {
+        height: 100vh;
+        background-image: linear-gradient(to bottom, rgb(74, 3, 133), rgb(8, 185, 162))
+    }
 
+    main {
+        width: 900px;
+        height: 350px;
+    }
+
+    div#imagem {
+        
+        float: right;
+        background-position: center;
+        
+        height: 100%;
+        width: 47%;
+
+    }
+
+    article {
+        float: left; 
+
+        width: 50%;
+        height: 100%;
+
+    }
+
+    p {
+        font-size: 1em;
+        margin-bottom: 15px;
+    }
     
 }
